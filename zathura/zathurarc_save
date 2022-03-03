@@ -1,0 +1,30 @@
+#Colors
+set recolor true
+set recolor-darkcolor "#eceff4"
+set recolor-lightcolor "#2e3440"
+set notification-bg "#2e3440"
+set notification-fg "#d8dee9"
+set highlight-color "#5e81ac"
+set notification-warning-bg "#bf616a"
+set notification-error-bg "#bf616a"
+set statusbar-bg "#2e3440"
+set statusbar-fg "#d8dee9"
+
+#Configuration 
+set selection-clipboard clipboard
+set recolor-keephue "true"2;6u
+set recolor "true"
+set guioptions "shv"
+
+# Key Bindings
+unmap j scroll down
+map n scroll left
+unmap k scroll up
+map e scroll down
+unmap l scroll right
+map i scroll up
+unmap o open
+map o scroll right
+map u zoom out
+map y zoom in
+map p toggle_statusbar        

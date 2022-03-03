@@ -1,0 +1,34 @@
+#Colors
+set recolor true
+set recolor-darkcolor "#f0f2f4"
+set recolor-lightcolor "#2B303B"
+set notification-bg "#2B303B"
+set notification-fg "#a4cfdb"
+set highlight-color "#da9e25"
+set notification-warning-bg "#da9e25"
+set notification-error-bg "#b54a55"
+set statusbar-bg "#2B303B"
+set statusbar-fg "#499fb6"
+set default-bg "#1A202A"
+set default-fg "#c4c9d4"
+
+#Configuration 
+set window-title-home-tilde true
+set statusbar-basename true
+set selection-clipboard clipboard
+set recolor-keephue "true"
+set recolor "true"
+set guioptions "shv"
+
+# Key Bindings
+unmap j scroll down
+map n scroll left
+unmap k scroll up
+map e scroll down
+unmap l scroll right
+map i scroll up
+unmap o open
+map o scroll right
+map u zoom out
+map y zoom in
+map p toggle_statusbar        

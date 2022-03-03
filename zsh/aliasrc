@@ -1,0 +1,10 @@
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip -color=auto'
+alias ls="exa -1l" #"ls -ho --color=auto"
+#alias cat="bat"
+#alias pacgraph="pacgraph -b #2e3440 -l #eceff4 -d #88c0d0 -t #ebcb8b"
+alias startx="startx ~/.config/x11/xinitrc"
+alias matlab="cd /usr/local/MATLAB/R2021b/bin && ./matlab"
+alias gotop="gotop -sa"
+alias neofetch="$HOME/bin/fetch.sh"

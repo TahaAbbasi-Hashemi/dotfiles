@@ -1,0 +1,227 @@
+# FONT
+#font Iosevka-Fixed-Curly-Slab-Extended 11
+
+# CUSTOM WINDOW CORRECTION
+for_window [instance="origin.exe"] floating enable
+
+
+#colors from .xresources
+#set $c0 "#2b303b" #BLACK
+#set $c1 "#b54a55" #RED
+#set $c2 "#60a758" #GREEN
+#set $c3 "#da9e25" #YELLOW
+#set $c4 "#4080bf" #BLUE
+#set $c5 "#a659a6" #MAGENTA
+#set $c6 "#499fb6" #CYAN
+#set $c7 "#c4c9d4" #WHITE
+#set $c8 "#6B7994" #LIGHT_BLACK
+#set $c9 "#daa4aa" #LIGHT_RED
+#set $c10 "#afd3ab" #LIGHT_GREEN
+#set $c11 "#edce92" #LIGHT_YELLOW
+#set $c12 "#9fbfdf" #LIGHT_BLUE
+#set $c13 "#d2acd2" #LIGHT_MAGENTA
+#set $c14 "#a4cfdb" #LIGHT_CYAN
+#set $c15 "#da9e25" #LIGHT_WHITE
+#set $black "#000000"      #think of this as a mid way between light and dark black
+
+bar {
+    #output primary
+    #mode hide
+	position top
+    status_command i3status
+	colors {
+		    background #BLACK
+		    statusline #WHITE
+		    separator  #LIGHT_BLACK
+            
+            focused_workspace  #LIGHT_BLUE  #BLUE #LIGHT_WHITE
+	        active_workspace   #BLUE        #LIGHT_BLUE #LIGHT_WHITE  #THIS IS A MULTI MONITOR THING
+          	inactive_workspace #LIGHT_BLACK       #LIGHT_BLACK #WHITE
+	        urgent_workspace   #LIGHT_RED   #RED #LIGHT_WHITE
+        	binding_mode       #LIGHT_RED   #RED #WHITE
+	}
+}
+
+# COLORS
+
+# class                 border backgr text   indicator   child_border
+client.focused          #BLACK #CYAN  #WHITE #CYAN     #CYAN
+client.focused_inactive #BLACK #BLACK #WHITE #484848   #484848
+client.unfocused        #BLACK #BLACK #WHITE #484848   #484848
+client.urgent           #BLACK #BLACK #WHITE #RED   #RED
+client.placeholder      #BLACK #BLACK #WHITE #BLACK   #BLACK
+
+client.background       #BLACK
+
+#Advanced Configuration
+mouse_warping none
+default_orientation auto
+workspace_layout default
+focus_follows_mouse yes
+mouse_warping output
+popup_during_fullscreen smart
+	# borders
+default_border pixel 3
+#hide_edge_borders vertical
+	#i3 gaps
+#gaps inner 0
+#gaps outer 0
+#smart_gaps off
+
+# startup
+exec --no-startup-id picom -b										# Compositor
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy -p	# Screenlock
+exec --no-startup-id "feh --bg-fill --randomize -r ~/pictures/Wallpapers" 	# Creates my wallpapers
+exec --no-startup-id unclutter --timeout 5 							# Removes mouse when not in use 
+#exec --no-startup-id xrdb -merge ~/.Xresources                      # Fix hidi
+exec --no-startup-id setxkbmap -layout us -variant altgr-intl       # keyboard layout
+
+###### KEYBINDINGS
+# MODIFIER
+set $mod Mod4
+
+#Constants
+set $term kitty
+set $runner "rofi -show drun"
+set $window ""
+
+# FLOATING
+floating_modifier $mod
+
+# COMPOSITOR
+#bindsym $mod+k exec --no-startup-id picom -b
+#bindsym $mod+h exec --no-startup-id pkill picom
+
+# TERMINAL
+bindsym $mod+Return exec --no-startup-id $term
+
+# ROFI
+bindsym $mod+z exec --no-startup-id $runner
+bindsym $mod+x exec --no-startup-id $runner
+
+# REDRAW BACKGROUND
+bindsym $mod+b exec --no-startup-id "feh --bg-fill --randomize -r ~/pictures/Wallpapers"
+
+# SCREENSHOT
+bindsym $mod+Shift+j exec --no-startup-id maim -s -o -u ~/Screenshots/$(date +%s).png 
+
+# KILL FOCUSED WINDOW
+bindsym $mod+q kill
+
+# AUDIO CONTROLS
+bindsym $mod+l exec --no-startup-id /home/taha/bin/chspeak.sh mute
+bindsym $mod+u exec --no-startup-id /home/taha/bin/chspeak.sh down
+bindsym $mod+y exec --no-startup-id /home/taha/bin/chspeak.sh up
+bindsym $mod+semicolon exec --no-startup-id /home/taha/bin/chspeak.sh umute
+
+#bindsym $mod+u exec --no-startup-id wpctl set-volume 49 "0."$(expr $(wpctl status | grep 49 | tail -c 4 | head -c 2) - 5)
+
+# VIDEO CONTROLS
+bindsym $mod+a exec "xrandr --output VGA1 --brightness 1"
+bindsym $mod+r exec "xrandr --output VGA1 --brightness 0.75"
+bindsym $mod+s exec "xrandr --output VGA1 --brightness 0.5"
+bindsym $mod+t exec "xrandr --output VGA1 --brightness 0.35"
+#bindsym $mod+s exec "xrandr --output DP-5 --brightness 0.5 && xrandr --output DP-3 --brightness 0.5 && xrandr --output DP-1 --brightness 0.5"
+#bindsym $mod+a exec "xrandr --output DP-5 --brightness 1 && xrandr --output DP-3 --brightness 1 && xrandr --output DP-1 --brightness 1"
+#bindsym $mod+t exec "xrandr --output DP-5 --brightness 0.25 && xrandr --output DP-3 --brightness 0.25 && xrandr --output DP-1 --brightness 0.25"
+#bindsym $mod+r exec "xrandr --output DP-5 --brightness 0.75 && xrandr --output DP-3 --brightness 0.75 && xrandr --output DP-1 --brightness 0.75"
+
+###### Regular Keys
+# change focus
+bindsym $mod+n focus left
+bindsym $mod+e focus down
+bindsym $mod+i focus up
+bindsym $mod+o focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+n move left
+bindsym $mod+Shift+e move down
+bindsym $mod+Shift+i move up
+bindsym $mod+Shift+o move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Configuration
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+w layout toggle split
+bindsym $mod+f fullscreen toggle
+
+#Workspace names
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# Move container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+# Reloading
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+bindsym $mod+h       split horizontal
+bindsym $mod+d       split vertical
+
+bindsym $mod+g mode "resize"
+mode "resize" {
+        # Resizing
+        bindsym n resize shrink width   2 px or 2 ppt
+        bindsym e resize grow height    2 px or 2 ppt
+        bindsym i resize shrink height  2 px or 2 ppt
+        bindsym o resize grow width     2 px or 2 ppt
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+#
+#bindsym $mod+v mode "brightness"
+#mode "brightness" {
+#    bindsym a exec "xrandr --output VGA1 --brightness 1"
+#    bindsym r exec "xrandr --output VGA1 --brightness 0.75"
+#    bindsym s exec "xrandr --output VGA1 --brightness 0.5"
+#    bindsym t exec "xrandr --output VGA1 --brightness 0.25"
+#
+#    # Back to normal
+#    bindsym Return mode "default"
+#    bindsym Escape mode "default"
+#}

@@ -1,0 +1,13 @@
+#image movement
+scroll_left m
+scroll_down e
+scroll_up i
+scroll_right o
+
+#Zoom in and out
+zoom_in y
+zoom_out u
+
+#Rotation
+orient_3 l
+orient_1 j
