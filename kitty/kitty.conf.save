@@ -7,10 +7,10 @@
 #: characters.
 
 #font_family      Iosevka Fixed Curly Slab Extended Italic
-font_family      Iosevka Fixed Curly Slab Extended Italic
-bold_font        Iosevka Fixed Curly Slab Bold Extended Italic
-italic_font      Iosevka Fixed Curly Slab Extended Oblique
-bold_italic_font Iosevka Fixed Curly Slab Bold Extended Oblique
+font_family      Iosevka Term Curly Slab Extended Italic
+bold_font        Iosevka Term Curly Slab ExtraBold Extended Italic
+#italic_font      Iosevka Fixed Curly Slab Extended Oblique
+#bold_italic_font Iosevka Fixed Curly Slab Bold Extended Oblique
 
 #: You can specify different fonts for the bold/italic/bold-italic
 #: variants. To get a full list of supported fonts use the `kitty
@@ -361,7 +361,7 @@ font_features Iosevka Fixed Curly Slab Extended Italic #FiraCodeNerdFontComplete
 #: in full screen programs that redraw the entire screen on each loop,
 #: because kitty is so fast that partial screen updates will be drawn.
 
-# sync_to_monitor yes
+sync_to_monitor yes
 
 #: Sync screen updates to the refresh rate of the monitor. This
 #: prevents tearing (https://en.wikipedia.org/wiki/Screen_tearing)
@@ -625,10 +625,7 @@ draw_minimal_borders yes
 #: }}}
 
 #: Color scheme {{{
-
-
-
-background_opacity 1
+background_opacity 0.9
 
 #: The opacity of the background_. A number between 0 and 1, where 1 is
 #: opaque and 0 is fully transparent.  This will only work if
@@ -680,12 +677,12 @@ background_opacity 1
 #: How much to dim text that has the DIM/FAINT attribute set. One
 #: means no dimming and zero means fully dimmed (i.e. invisible).
 
-# selection_foreground #000000
+selection_foreground #2B303B
 
 #: The foreground_ for text selected with the mouse. A value of none
 #: means to leave the color unchanged.
 
-# selection_background #fffacd
+selection_background #c4c9d4
 
 #: The background_ for text selected with the mouse.
 
@@ -707,36 +704,36 @@ color9 #daa4aa
 color10 #afd3ab
 color11 #edce92
 color12 #9fbfdf
-color13 #afd3ab
-color14 #d2acd2
-color15 #a4cfdb
+color13 #d2acd2
+color14 #a4cfdb
+color15 #f0f2f4
 
-background #f0f2f4
-foreground #2B303B
+background #2B303B
+foreground #c4c9d4
 
 #: white
 
-# mark1_foreground black
+mark1_foreground black
 
 #: Color for marks of type 1
 
-# mark1_background #98d3cb
+mark1_background #98d3cb
 
 #: Color for marks of type 1 (light steel blue)
 
-# mark2_foreground black
+mark2_foreground black
 
 #: Color for marks of type 2
 
-# mark2_background #f2dcd3
+mark2_background #f2dcd3
 
 #: Color for marks of type 1 (beige)
 
-# mark3_foreground black
+mark3_foreground black
 
 #: Color for marks of type 3
 
-# mark3_background #f274bc
+mark3_background #f274bc
 
 #: Color for marks of type 1 (violet)
 

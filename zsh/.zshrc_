@@ -20,11 +20,16 @@ PS1="%K{black}%F{blue}%BTaha@Beryllium%b %D{%a %b %d} %D{%I:%M:%S%P} %b%f
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.config/zsh/history
-setopt HIST_IGNORE_ALL_DUPS
-setopt HIST_FIND_NO_DUPS
+set
 
-#Terminal Colors
+#Terminal Colors for User
 if [ "$TERM" = "linux" ]; then
+    #_SEDCMD='s/.*\*color\([0-9]\{1,\}\).*#\([0-9a-fA-F]\{6\}\).*/\1 \2/p'
+    #for i in $(sed -n "$_SEDCMD" $HOME/.config/x11/Xresources | awk '$1 < 16 {printf "\\e]P%X%s", $1, $2}'); do
+    #    echo -en "$i"
+    #done
+    #clear
+    #echo "black is -> $BLACK"
     echo -en "\e]P0$(echo $BLACK | tail -c 7)"
     echo -en "\e]P8$(echo $BLACK | tail -c 7)"
     echo -en "\e]P1$(echo $RED | tail -c 7)"
@@ -43,12 +48,15 @@ if [ "$TERM" = "linux" ]; then
     echo -en "\e]PF$(echo $WHITE | tail -c 7)"
 fi
 
-#plugins
+#starting .xresources colors
+#xrdb $HOME/.config/x11/Xresources 
+
 source ~/.config/zsh/zshHighlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/zshSugestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/aliasrc    #Aliases
 
 
 #Autorun
+#fastfetch
 ./bin/fetch.sh
 

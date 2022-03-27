@@ -5,30 +5,9 @@
 for_window [instance="origin.exe"] floating enable
 
 
-#colors from .xresources
-#set $c0 "#2b303b" #BLACK
-#set $c1 "#b54a55" #RED
-#set $c2 "#60a758" #GREEN
-#set $c3 "#da9e25" #YELLOW
-#set $c4 "#4080bf" #BLUE
-#set $c5 "#a659a6" #MAGENTA
-#set $c6 "#499fb6" #CYAN
-#set $c7 "#c4c9d4" #WHITE
-#set $c8 "#6B7994" #LIGHT_BLACK
-#set $c9 "#daa4aa" #LIGHT_RED
-#set $c10 "#afd3ab" #LIGHT_GREEN
-#set $c11 "#edce92" #LIGHT_YELLOW
-#set $c12 "#9fbfdf" #LIGHT_BLUE
-#set $c13 "#d2acd2" #LIGHT_MAGENTA
-#set $c14 "#a4cfdb" #LIGHT_CYAN
-#set $c15 "#da9e25" #LIGHT_WHITE
-#set $black "#000000"      #think of this as a mid way between light and dark black
-
 bar {
-    #output primary
-    #mode hide
 	position top
-    status_command i3status
+    status_command /home/taha/bin/status.sh
 	colors {
 		    background #BLACK
 		    statusline #WHITE
@@ -42,15 +21,12 @@ bar {
 	}
 }
 
-# COLORS
-
 # class                 border backgr text   indicator   child_border
 client.focused          #BLACK #CYAN  #WHITE #CYAN     #CYAN
 client.focused_inactive #BLACK #BLACK #WHITE #484848   #484848
 client.unfocused        #BLACK #BLACK #WHITE #484848   #484848
-client.urgent           #BLACK #BLACK #WHITE #RED   #RED
+client.urgent           #BLACK #BLACK #WHITE #RED      #RED
 client.placeholder      #BLACK #BLACK #WHITE #BLACK   #BLACK
-
 client.background       #BLACK
 
 #Advanced Configuration
@@ -61,7 +37,7 @@ focus_follows_mouse yes
 mouse_warping output
 popup_during_fullscreen smart
 	# borders
-default_border pixel 3
+default_border pixel 4
 #hide_edge_borders vertical
 	#i3 gaps
 #gaps inner 0
@@ -113,7 +89,10 @@ bindsym $mod+l exec --no-startup-id /home/taha/bin/chspeak.sh mute
 bindsym $mod+u exec --no-startup-id /home/taha/bin/chspeak.sh down
 bindsym $mod+y exec --no-startup-id /home/taha/bin/chspeak.sh up
 bindsym $mod+semicolon exec --no-startup-id /home/taha/bin/chspeak.sh umute
-
+bindsym $mod+Shift+l exec --no-startup-id /home/taha/bin/chmic.sh mute
+bindsym $mod+Shift+u exec --no-startup-id /home/taha/bin/chmic.sh down
+bindsym $mod+Shift+y exec --no-startup-id /home/taha/bin/chmic.sh up
+bindsym $mod+Shift+semicolon exec --no-startup-id /home/taha/bin/chmic.sh umute
 #bindsym $mod+u exec --no-startup-id wpctl set-volume 49 "0."$(expr $(wpctl status | grep 49 | tail -c 4 | head -c 2) - 5)
 
 # VIDEO CONTROLS

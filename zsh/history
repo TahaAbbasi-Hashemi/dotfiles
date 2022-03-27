@@ -1,1137 +1,292 @@
-ls -a
-paru -Ss fetch
-paru -Sii screenfetch
-paru -S screenfetch
-screenfetch
-screenfetch
-neofetch
-paru -Rns screenfetch
-paru -Ss fetch
-paru -Ssq fetch
-paru -Sii nerdfetch fastfetch-git infornography-git
+histor
+history
+cd devel/Cpp/EndovascularSurgery/build
+make 
 cd ..
-cd python
-ls
-cd Python
-ls
-mkdir fetch
-cd fetch
-ls
-nvim fetch.py
-python fetch.py
-nvim fetch.py
-python fetch.py
-nvim fetch.py
-python fetch.py
-nvim fetch.py
-ranger
-ranger
-startx
-cd /
-ls
-cd /boot
-ls
-cd loader
-ls
-doas nano loader.conf
-doas reboot now
-./bin/fetch.sh
-nvim ~/bin/fetch.sh
-nvim ~/bin/fetch.sh
-nvim ~/bin/fetch.sh
-cat ~/.local/bin/fetch.sh
-./bin/fetch.sh
-bin/fetch.sh
-bin/fetch.sh
-bin/fetch.sh
-bin/fetch.sh
-time bin/fetch.sh
-time .local/bin/fetch.sh
-neofetch
-neofetch
-./bin/fetch.
-./bin/fetch.sh
-./bin/fetch.sh
-./bin/fetch.sh
-./bin/fetch.sh
-./bin/fetch.sh
-./bin/fetch.sh
-fastfetch
-fastfetch
-fastfetch
-fastfetch
-neofetch
-paru
-paru -Qdt
-paru -Rns $(paru -Qdt)
-paru -Rns $(paru -Qdtq)
-paru -Rns $(paru -Qdtq)
-paru -Rns $(paru -Qdtq)
+rm -r build
+mkdir build
+cd build
+paru -Ss CLI11
+paru -S --asdeps community/cli11
+\:w
+cmake .. && make
+./EndoSurg
 paru -Qdt
 paru -Qdtt
-paru -Rns sane
-paru -Qdtt
-paru -Qii rtkit
-paru -Rns rtkit
-cd Downloads
-ls
-ranger
-./Appimages/FreeCAD.AppImage
-./Appimages/Cura.AppImage
-wpctl --help
-wpctl status
-wpctl set-mute 55 0
-wpctl status
-wpctl set-mute 55 1
-wpctl set-mute 55 0
-wpctl set-mute 55 2
-wpctl set-mute 55 0
-wpctl status
-wpctl set-mute 55 1
-wpctl status
-wpctl set-mute 55 0
-ranger
-TEST="hI\
-"
-TEST="hi"
-if [$TEST == "Hi]
-if [$TEST == "Hi"]\
-then\
-echo "hello"\
-fi
-if [$TEST == "hi"]\
-then\
-echo "hello"\
-fi
-exit
-ls
-ranger
-ranger
-lsblk
-doas mount /dev/sdc1 /mnt
-cd /mnt
-ranger
-cd 
-ranger
-xrandr
-xrandr | awk '/connected/{print $1}'
-xrandr | awk '/ connected/{print $1}'
-./bin/chspeak.sh
-./bin/chspeak.sh
-speaker="Built-in Audio Analog Stereo"
-echo $speaker
-wpctl status
-wpctl status | awk '/'$speaker'/{print $3}'
-wpctl status | awk '/'$speaker'/{print $3}' | head -c 2
-./bin/chspeak.sh
-./bin/chspeak.sh
-grep --help
-./bin/chspeak.sh
-./bin/chspeak.sh
-./bin/chspeak.sh
-./bin/chspeak.sh
-./bin/chspeak.sh
-./bin/chspeak.sh louder
-TEST="hi"
-if [$TEST == "Hi"]; do echo "hello"; fi
-if [$TEST == "Hi"];echo "hello"; fi
-if [$TEST == "Hi"];then;echo "hello"; fi
-if [$TEST == "Hi"] then;echo "hello"; fi
-if [$TEST == "Hi"] then echo "hello"; fi
-if [$TEST == "Hi"] then echo "hello" fi\
-
-if [$TEST == "Hi"]\
-echo "hello"\
-fi
-if [$TEST == "Hi"]\
-then\
-echo "hello"\
-fi
-zsh
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh down
-./bin/chspeak.sh down
-ia[A
-./bin/chspeak.sh down
-TEST="hi"
-if [$TEST = "Hi"]\
-then\
-echo "hello"\
-fi
-if [ $TEST = "Hi" ]\
-then\
-echo "hello"\
-fi
-if [ $TEST = "Hi" ]\
-then\
-echo "hello"\
-fi
-./bin/chspeak.sh down
-./bin/chspeak.sh down
-./bin/chspeak.sh down
-./bin/chspeak.sh down
-./bin/chspeak.sh mute
-./bin/chspeak.sh umute
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh up
-./bin/chspeak.sh mute
-./bin/chspeak.sh mutetr
-./bin/chspeak.sh mutetr
-./bin/chspeak.sh umutera
-./bin/chspeak.sh umute
-./bin/chspeak.sh umute
-./bin/chspeak.sh umutea
-./bin/chspeak.sh umutea
-./bin/chspeak.sh 
-./bin/chspeak.sh --help
-./bin/chspeak.sh --he
-./bin/chspeak.sh -h
-./bin/chspeak.sh --helptrsatars
-./bin/chspeak.sh --help
-./bin/chspeak.sh -h
-./bin/chspeak.sh --help
-neofetch
-ranger
-cd bin
-ls
-ranger
-cd 
-cd .config/if
+/bin/sh
+ls ~/bin
+/boot /media / /home/taha /home/taha/devel /home/taha/sys
+clear
+paru -Qii feh
+paru -S --asdeps imagemagick
+pacgraph 
+feh pacgraph.png
+paru -Rns pacgraph imagemagick
+paru -S man
+paru -Ss man
+pacman -Ss man
+paru -Rns flatpak
+transmission-remote -l
+unclutter
+man unclutter
+cd ~/.config/i3
+rm -r pacgraph.png pacgraph.svg
+make
+make && ./EndoSurg
+free 
+htop
+tofp
+top
+echo $SHELL
+cd ~/devel/Cpp/EndovascularSurgery/build
+$SHELL
+cd .config/zsh
+cd download
+mkdir usb
+sudo mount /dev/sdc1 usb
+ls usb
+sudo cp AI3MX_candle.gcode usb
+sudo umount usb
+./appimages/cura.app
 cd .config/i3
-ls
-ranger
-paru
-cd Development/Shell
-ls
-ranger
-cd 
-ls
-lsblk
-cd cura
-ls
-cd cath9
-ls
-lsblk
-doas mount /dev/sdd1 usb
-ls
-doas cp AI3MX_hadle.gcode usb
-paru
-cd cath9
-paru
-neofetch
-pkill x
-lsblk
-cd cura
-ls
-cd cath0
-cd cath9
-ls
-doas mount /dev/sde1 usb
-doas cp AI3MX_shaft.gcode usb
-lsblk
-cd usb
-ls
-ls -a
-doas umount usb
-cd ..
-doas umount usb
-paru
-doas pacman -Syyu
-cd 
-cd /
-ls
-ls -a
-paru -S ncdu
-paru -S ncdu
-ncdu
-ls
-cd tt
-ls
-ls -[a
-ls -a
-ranger
-./Appimages/Cura.AppImage
-./Appimages/FreeCAD.AppImage
-prau
-paru
-paru -S kitt
-paru -S kitty
-paru -Sii alacritty
-ls
-neofetch --no-config
-fastfetch --no-config
-fastfetch --help
-ranger
-cd .config/kitty
-ls
-ranger
-cd 
-neofetch --no-config
-ls
-ranger
-cd Development/Cpp
-ls
-cd E
-cd EndovascularSurgery
-ls
-ranger
-cd .config
-cd 
-cd .config/x11
-ls
-ranger
-ranger
-ranger neofetch
-ranger
-cd /mnt
-ls
-cd backup
-ls
-ranger
-cd 
-cd .config
-ls
-cd kitty
-ls
-ranger
-rangre
-range 
-rangner
-ranger
-ranger
-ranger
-ranger
-ranger
-cd Downloads
-ls
-nvim dvs_v2.py
-ranger
-lr
-ls
-ls
-ranger
-cd bin
-ls
-nvim fetch.py
-nvim fetch.sh
-cd Development/Shell
-ls
-ranger
-ls
-termcolor.sh
-./termcolor.sh
-nvim termcolor.sh
-./termcolor.sh
-nvim termcolor.sh
-./termcolor.sh
-neioarst
-paru
-xournalpp
-ranger
-echo $BLACK
-echo $BLACK
-echo $LIGH_BLACK
-echo $LIGHT_BLACK
-cd Development/Shell
-ls
-ranger
-./termcolor.sh
-ranger
-./termcolor.sh
-echo $CYAN
-echo $BLACK
-cd ~/.config/x11
-ls
-range
-ranger
-echo $BLACK
-echo $CYAN
-echo $LIGHT_BLACK
-echo $LIGHT_CYAN
-lsblk
-nvim 
-ls
-neo
-ls
-cd Development/Shell
-ls
-ranger
-ls
-./ColorSet.sh
-cat ~/.config/alacritty/alacritty.yml | grep "#BLACK"
-cat ~/.config/alacritty/alacritty.yml | grep "#BLACK"
-awk --help
-ranger
-cp ~/.config/alacritty/alacritty.yml tmp.yml
-ls
-grep "#BLACK" tmp.yml
-change_line=$(grep "#BLACK" tmp.yml)
-echo $change_line
-echo $change_line | awk "{print $1 $BLACK $2}
-echo $change_line | awk "{print $1 $BLACK $2}"
-echo $change_line | awk '{print $1 '$BLACK' $2}'
-echo $change_line | awk '{print $1 rtt $2}'
-echo $change_line | awk '{print $1 rtt $3}'
-echo $change_line | awk '{print $1 TEST $3}'
-echo $change_line | awk '{print $1 "$BLACK" $3}'
-echo $change_line | awk '{print $1 "'$BLACK'" $3}'
-echo $change_line | awk '{print $1 " '$BLACK' " $3}'
-echo $change_line | awk '{print $1 "\t \t '$BLACK' " $3}'
-echo $change_line | awk '{print "\t\t" $1 " '$BLACK' " $3}'
-echo $change_line | awk '{print "    " $1 " '$BLACK' " $3}'
-echo $change_line | awk '{print "    " $1 " \"'$BLACK'\" " $3}'
-echo $change_line | awk '{print "    " $1 " \"'$BLACK'\" " $3}'
-grep "#BLACK" tmp.yml | awk '{print "    " $1 " \"'$BLACK'\" " $3}'
-ranger
-./ 
-./ColorSet.sh
-ranger
-./ColorSet.sh
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-cat ~/.config/alacritty/alacritty.yml 
-ranger
-cat ~/.config/alacritty/alacritty.yml 
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ranger
-./ColorSet.sh
-ls
-cd Development/Shell
-ls
-ranger
-lr
-ls
-ranger
-ls
-./kitty_color.sh
-cd Development/Shell
-ls
-./kitty_color.sh
-nvim kitty_color.sh
-./kitty_color.sh
-ls
-ls
-neofetch
-ls
-cd Development/Shell
-ls
-nvim kitty_color.sh
-./kitty_color.sh
-ls
-ranger
-ranger
-ls
-neofetch
-sl
-neiorsta
-ranger
-ranger
-ls
-ranger
-ls
-paru
-grep --help
-ranger
-cd Development/Shell
-ls
-ranger
-zathura
-zathura
-zathura
-zathura
-zathura
-zathura
-ranger
-ranger
-ls
-neofetch
-paru
-ranger
-ranger
-ranger
-cd Documents
-ls
-cd Personal
-ls
-ranger
-cd .config/zathura
-ls
-ranger
-cd Development/Shell
-ls
-ranger
-./kitty_color.sh
-ranger
-./kitty_color.sh
-ranger
-./kitty_color.sh
-ranger
-./kitty_color.sh
-./kitty_color.sh
-ls
-nvim kitty_color.sh
-ls
-./kitty_color.sh
-nvim kitty_color.sh
-grep --help
-nvim kitty_color.sh
-grep --help
-./kitty_color.sh
-nvim kitty_color.sh
-./kitty_color.sh
-ranger
-./kitty_color.sh
-nvim kitty_color.sh
-./kitty_color.sh
-./kitty_color.sh
-./kitty_color.sh
-./kitty_color.sh
-nvim kitty_color.sh
-./kitty_color.sh
-nvim kitty_color.sh
-./kitty_color.sh
-ranger
-rangre
-~/bin/kitty_color.sh
-ranger
-cd ..
-cd ..
-cd bin
-ls
-./kitty_color.sh
-ranger
-./o
-./kitty_color.sh
-./kitty_color.sh
-./kitty_color.sh
-./kitty_color.sh
-./kitty_color.sh
-ranger
-ranger
-./kitty_color.sh
-ranger
-./kitty_color.sh
-ranger
-./kitty_color.sh
-rangre
-ranger
-./kitty_color.sh
-ranger
-./zathura_color.sh
-ranger
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-ranger
-nvim zathura_color.sh
-ranger
-nvim zathura_color.sh
-./zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-notification-bg
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-ranger
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-ranger
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-nvim zathura_color.sh
-./zathura_color.sh
-ls
-arnger
-ranger
-cd .config
-ls
-cd zsh
-ls
-ranger
-echo $BLACK
-ls
-ranger
-ranger
-ranger
-ranger
-cd kitt
-cd kitty
-ls
-cd ..
-cd  kitty
-ls
-nvim kitty.conf o
-ls
-ls
-ranger
-ranger
-ranger
-ranger
-cd ..
-cd zathura
-ls
-ranger
-paru
-sudo pacman -S firefox
-source ~/.config/zsh/.zshrc
-neofetch
-ls
-pacman 
-cd ..
-ls
-i3
-ranger
-pacman
-pacman -Qe
-pacman -Rns sway reflector alacritty dhcpcd
-sudo pacman -Rns sway reflector alacritty dhcpcd
-pacman -Qe
-pkill x
-ls
-neofetch
-nano .config/zsh/./.zshrc
-nano .config/zsh/./.zshenv
-nano .config/zsh/./.zshrc
-cd .config/zsh
-ls -a
-nano aliasrc
-neofetch
-neofetch
-nano aliasrc
-cd .config/zsh
-nano aliasrc
-nano aliasrc
 cd
-cd bin
-ls
-nvim fetch.sh_
-ranger
-neofetch
-neofetch
-neofetch
-neofetch
-neofetch
-pacman -S feh unclutter
-sudo pacman -S feh unclutter
-ls /media
-cd /media
-sudo cd /media
-sudo cd 
-cd /
-ls
-cd media
-sudo -hR chown taha /media
-ls
-ls
-chmod 666 /media
-ls
-ls
-cd /media
-ls
-ranger
-umount /media
-sudo umount /media
-lsblk'\
-\
-\
-'
-lsblk
-reboot now
-sudo reboot now
-ranger
-sudo pacman -S rofi
-LS
-ls
-lsblk
-sudo fdisk /dev/sda
-lsblk
-mkfs.ext4 /dev/sda1
-sudo mkfs.ext4 /dev/sda1
-sudo mount /dev/sda1 /media
-ls
-sudo chmod 666 /media
-ls /
-ranger
-ranger
-cd /media
-ls
-ls /
-chown --helpo
-chown --help
-chown -hR user /media
-chown -hR taha /media
-sudo chown -hR taha /media
-ls
-ls /
-ranger
-ls
-cp Documents /media
-cp -r Documents /media
-sudo cp -r Documents /media
-cp -r ranger ~/.config
-cp -r sway ~/.config
-cp -r x11 ~/.config
-cp -r zathura ~/.config
-cp -r zsn ~/.config
-cp -r zsh ~/.config
-cxd ..
-cd ..
-ls
-ls -a
-cd .config
-ls
-neofetch
-starts
-startz
-startx
-pacman -S xinit
-sudo pacman -S xinit
-sudo pacman -Ss xinit
-sudo pacman -Ss xorg-xinit
-sudo pacman -S xorg-xinit
-sudo pacman -S xorg-server
-startx
-ls
-ls
-startx --help
-ls .config
-ls ~/.config
-exa -ah ~/.config/zsh
-source ~/.config/zsh/.zshrc
-neofetch
-startx
-fetch
-ls
-lsblk
-sudo mount /dev/sdc1 /tmp
-ls
-cd ..
-ls
-umount /tmp
-sudo umount /tmp
-sudo mount /dev/sdc1 tmp
-ls
-cd tmp
-ls
-cd backup
-ls
-ls bin
-fetch.sh
-./fetch.sh
-/bin/fetch.sh
-./bin/fetch.sh
-./bin/fetch.sh_
-cp -r bin ~/bin
-cd ..
-cd ..
-ls
-ls bin
-lsblk
-ls tmp/backup
-cp -r tmp/backup/School/ ~/school
-ls
-ls school
-neofetch
-fech
-fetch
-pacman -Ss file manager
-pacman -S pcmanfm-gtk3
-sudo pacman -S pcmanfm-gtk3
-startx
-ls
-cd pictures/\\
-ls
-cd pictures/
-ls
-cd Downloads/
-ls
-tar -xvr 03-Layan-white-cursors.tar.xz
-ls
-tar -xvf 03-Layan-white-cursors.tar.xz
-ls
-ls
-ls -a
-cd .icons
-ls
-cd default
-ls
-nano index.theme
-cd Downloads
-ls
-ls ..
-ls
-tar -xvf ttf-iosevka-term-curly-slab-15.0.1.zip
-pacman -S --asdeps unzip zip
-sudo pacman -S --asdeps unzip zip
-unzip ttf-iosevka-term-curly-slab-15.0.1.zip
-ranger
-nvim .config/kitty/kitty.conf
-exa
-ls
-nvim .config/kitty/kitty.conf
-ls
-neofetch
-exa
-nvim .config/kitty/kitty.conf
-cd .local/share
-ls
-cd fonts/
-lks
-ls
-ls
-neofetch
-startx
-pacman -Ss bitwarden
-sudo pacman -S bitwarden
-ls 
-cd sys
-ls
-cd latex-thesis
-ls
-ls
-ls -a
-makepkg -si
-cd ..
-ls
-cd endovascular-surgery
-ls
-makepkg -si
-makepkg -si
-pacman -Ss python pyparsing
-pacman -S --asdeps extra/python-pyparsing
-sudo pacman -S --asdeps extra/python-pyparsing
-lsblk
-neofetch
-pacman -Rns neofetch
-sudo pacman -Rns neofetch
-pacman -Qe
-pacman -Sii pacman-contrib
-pacman -ii pacman-contrib
-pacman -Qii pacman-contrib
-sudo pacman -Rns pacman-contrib
-ls
-neofetch
-pacman -Syyu
-sudo pacman -Syyu
-pacman -Qe
-pacman -S --asdeps wpa_supplicant
-sudo pacman -S --asdeps wpa_supplicant
-pacman -Qe
-pacman -S git
-sudo pacman -S git
-pacgraph -c
-pacgraph -c -m arch
-sudo pacman -Rns opendoas
-pacman -S zathura
-sudo pacman -S zathura
-pacman -S --asdeps zathura-pdf-poppler
-sudo pacman -S --asdeps zathura-pdf-poppler
-sudo pacman -S --asdeps zathura-pdf-mupdf
-sudo pacman -S --asdeps zathura-pdf-poppler
-neofetch
-doas reboot now
-sudo reboot now
-ls -a
-rm -r .zcompdump .zshenv
-ls
-ls -a
-rm -s config2
-rm -r config2
-ranger
-pacman -S xournalpp
-sudo pacman -S xournalpp
-xournalpp
-pacman -S arduino 
-sudo pacman -S arduino 
-pacman -Ss arduino
-sudo pacman -S arduino
-ls
-pacman -Qii arduino
-pacman -S --asdeps arduino-avr-core
-sudo pacman -S --asdeps arduino-avr-core
-paru -Ss pavucontrol
-paru -S pipewire-pulse
-paru -S pipewire-pulse
-wpctl --help
-wpctl status
-pacman -S --asdeps base-devel
-sudo pacman -S --asdeps base-devel
-git clone https://aur.archlinux.org/paru.git\
-cd paru\
-makepkg -si
-paru -Ss base-devel meta
-paru -S aur/base-devel-meta
-lsblk
-paru -S zoom
-zoom
-paru -Ss picom
-pacman -Ss picom
-cd .config
-ls
-cd zsh
-ls
-ranger
-ranger
-lsblk
-neofetch
-neofetch
-ls
-cd research
-ls
-ranger
-ls
-cd thesis
-is
-ls
-pdflatex main.tex
-zathura main.pdf
-ranger
-zathura main.pdf
-pdflatex main.tex
-ranger
-cd ..
-cd ..
-ls
-cd latexTest
-ls
-pdflatex Thesis.tex
-ranger
-++++++++++++++++++++
-neofetch
-ls
-sudo pacman -Syyu
-wpctl status | awk '/'$speaker'/{print $3}' | head -c 2
-wpctl status 
-ls
-cd devel
-sl
-ls
-cd Cpp
-ls
-cd EndovascularSurgery
-lsc
-ls
-ranger
-pacman -S xrandr
-sudo pacman -S xrandr
-pacman -Ss xrandr
-sudo pacman -S xorg-xrandr
-paru
-cd .config
-ls
-ls i3
-cd i3
-ls
-cat config
-ranger
-cd .config
-ls
-cd zsh
-ls
-ranger
-pkill x
-./bin/i3_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-ls
-dash
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-cd bin
-ls
-ranger
-neofetch
-ls
-cd .config
-cd zsh
-ranger
-cd bin
-ls
-ranger
-./alacritty_color.sh_
-ranger
-./alacritty_color.sh_
-./alacritty_color.sh_
-./alacritty_color.sh_
-cd .config/i3
-ls
-ranger config
-ls
-ranger
-pkill x
-ls
-ranger
+1;10u5;10u5;10u5;10u5;10u5;10u5;10u5;10u5;10ui
+cp /usr/share/rofi/themes/Arc-Dark.rasi ./config/rofi
+cp /usr/share/rofi/themes/Arc-Dark.rasi .config/rofi
+ls .config/rofi
+cp /usr/share/rofi/themes/arthur.rasi .config/rofi
+cd .config/rofi
+cd devel/Cpp/EndovascularSurgery/src
+cd sr
+cd src
+cd devel/Cpp/EndovascularSurgery/include
+cd  devel/Cpp/EndovascularSurgery
+cd include
+rnger
+cd .config/alacritty
+range
+cd .config/picom
+nvim changes
 cd bin
 lr
+startx
+ls /etc/local
+ls /etc | grep local
+timedatectl set-time "2022-03-21 20:39:00"
+timedatectl set-time "2022-03-21 20:40:15"
+sudo timedatectl set-time "2022-03-21 20:39:50"
+sudo hwclock -systohc
+hwclock --help
+sudo hwclock -w
+sudo hwclock
+hwclock
+sudo reboot now
+cd devel/Shell
+cd archInstall2
+paru -Qe
+rofi-theme-selector
+ls
+rofi
+rofi --show drun
+rofi --show run
+rofi --show {run}
+rofi -show drun
+rofi -show run
+whoami
+lsblk
 ranger
-sed --help
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-rangerta
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-./bin/alacritty_color.sh_
-picom -b
-pkill picom
+rofi 
+rangner
+rofi -show window
+rofi -show
+rofi -show keys
+neofetch
+paru
+paru -Qe
+paru -Ss virtual machine
+pacman -Ss virtual machine
+pacman -Ss oracle
+pacman -Ss orcle
+pacman -Ss ora
+pacman -Ss orac
+pacman -Ss oral
+pacman -Ss oralce
+pacman -Ss virtualbox
+paru -S community/virtualbox
+cd devel/Shell/archInstall2
+ls
+git status
+tid add arch_1.sh arch_2.sh
+git add arch_1.sh arch_2.sh
+git commit -m "arch fixing"
+git push -U origin
+git push -u origin
+git
+neofetch
+lsblk
+pacman -Ss github
+paru -S github-cli
+gc
+paru -Qll github-cli
+gh
+gh auth login
+cd devel/Shell/archInstall2
+ls
+gh 
+gh auth
+gh auth setup-git
+git remote set-url origin https://github.com/TahaAbbasi-Hashemi/ArchArtixInstall.git
+git push -u origin
+modprobe vboxdrv
+sudo modprobe vboxdrv
+reflector
+pacman -S reflector
+sudo pacman -S reflector
+reflector --help
+cat /etc/pacman.conf
+cd devel/Shell/archInstall2
+ls
+ls /etc/mkinitcpio.conf
+cat /etc/mkinitcpio.conf
+ranger
+htop
+top
+pacman -Ss itk
+pacman -Ss vtk
+paru -Ss itk
+paru -Sii itk
+paru -Sii vtk
+pacman -Ss opengl
+lsblk
+neofetch
+paru
+ranger
+lsblk
+pacman -Syyu
+neofetch
+pacgraph
+free
+free -hc
+free -h
+free -t
+free -th
+paru
+paru -Ss McMaster
+paru -Ss Master
+pacman -Ss master
+paru -Qii git
+paru -S --asdeps git
+paru -Qii reflector
+paru -Rns reflector
+paru -qe
+paru -Rns pcmanfm-gtk3
+paru -Qii rofi
+paru -Qii xournalpp
+paru -Rns xournalpp 
+paru -Qii un
+paru -Qii unclutter
+paru -Qii mpv
+paru -Qii nano
+paru -Qii neovim
+paru -Q,
+paru -Qii base
+paru -Sii base
+paru -Qe
+paru -Qii dask
+paru -Qii dash
+paru -Sii dash
+paru -Ss wake
+paru -Sii wake
+cd devel/Shell/archInstall2
+nvim gpgcrypt
+nvim gpgcryptInstall
+ls
+git add gpgcryptHook gpgcryptInstall
+git commit -m "adding hooks for arch install"
+git push -u origin
+lsblk
+neofetch
+ranger
+top
+cd devel/Shell/archInstall2
+ranger
+ls
+ls /lib/initcpio
+free
+ls -l /dev/disk/by-id | grep sdb1
+ls -l /dev/disk/by-id | grep nvme
+ls -l /dev/disk/by-id | grep nvme0n1
+ls -l /dev/disk/by-id | grep nvme0n1p1
+blkid
+blkid | grep LUKS
+blkid --help
+paru
+df -hT | awk "///"
+df -hT | awk "/%//"
+df -hT | awk "/home/"
+awk --help
+df -a
+df 
+df -H --help
+df -H --total
+df -Ht
+df --help
+df -HT
+df -H | awk '/"/"nvme0n1p2
+df -H | awk '/"/"nvme0n1p2'
+df -H | awk '/"/"nvme0n1p2/'
+df -H | awk '/"/print'
+df -H | awk '/"//{print}'
+df -H | awk '/"/"/{print}'
+df -H | awk '//{print}'
+df -H | awk '/nvme0n1p2/{print}'
+df -H | awk '/nvme0n1p2/{print}' | head -l 1
+head --help
+df -H | awk '/nvme0n1p2/{print}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $3-$1}' | head -n 1 | awk 
+df -H | awk '/nvme0n1p2/{print $3-$1}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $1-$1}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $1 $1}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $2 $1}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $2:$3}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $2  $3}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $2":"$3}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $3":"$2}' | head -n 1
+df -H
+df -H | awk '/nvme0n1p2/{print $3":"$4}' | head -n 1
+df -H | awk '/nvme0n1p2/{print $4" Free"}' | head -n 1
+ls
+df -hT
+paru -S --asdeps parted
+parted /dev/nvme0n1p1 -s print
+sudo parted /dev/nvme0n1p1 -s print
+ls -l 
+ls -l /dev/
+ls -l /dev/disk/by-ld
+ls -l /dev/disk/by-id
+ls -l /dev/disk/by-uuid
+ls -l /dev/disk
+ls -l /dev/disk/by-label
+ls -l /dev/disk/by-partlabel
+ls 
+ls /dev/
+ls /sys/
+ls /sys/class
+ls /sys/class/power_supply
+cd /sys/class
+ranger
+cd 
+ls /dev
+cd
+neofetch
+paru -Qe
+paru -Q | wc -l
+paru -Q
+paru -Qii wayland
+paru -S sway
+sway
+lsblk
+paru -Qii sway
+paru -Qii rofi
+sudo reboot now
+startx
